@@ -16,6 +16,7 @@ section{
     justify-content: center;
     height: 100vh;
     background: url('../../assets/Back2.jpg');
+    overflow: hidden;
 }
 .bloco{
     display: flex;
@@ -125,7 +126,7 @@ motion{
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 100vh;
+        height: 130vh;
         flex-direction: column;
     }
     .bloco{
@@ -137,6 +138,9 @@ motion{
     }
 }
 @media screen and (max-width:768px){
+    .sections{
+        overflow: hidden;
+    }
     .info-text h1{
         font-size: 1.5rem;
     }
@@ -145,7 +149,7 @@ motion{
     }
     .imgArea{
         margin-top: 1rem;
-        max-width: 50%;
+        max-width: 100%;
     }
     .cardArea{
         height: 80vh;
@@ -160,9 +164,12 @@ motion{
     }
 }
 
-@media screen and (max-width:375px){
+@media screen and (max-width:600px){
     .sections{
-        height: 140vh;
+        overflow: hidden;
+    }
+    .imgArea{
+        max-width: 80%;
     }
     
 }
