@@ -267,7 +267,7 @@
     }
 }
 
-@media screen and (max-width: 414px){
+@media screen and (max-width: 768px){
     .logoStudio_area{
         height: 40vh;
         width: 100%;
