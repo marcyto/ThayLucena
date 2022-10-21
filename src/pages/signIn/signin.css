@@ -1,0 +1,74 @@
+main{
+    min-height: 100vh;
+    background: linear-gradient(to right top, rgba(240,221,221,1) 50%, rgba(249,176,176,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.glass{
+    background:white;
+    min-height: 80vh;
+    width: 60%;
+    background: linear-gradient(to right bottom, 
+    rgba(255,255,255, 0.7),
+    rgba(255,255,255, 0.3));
+    border-radius: 2rem;
+    z-index: 5;
+    backdrop-filter: blur(2rem);
+}
+.circle1, .circle2{
+    background: white;
+    background: linear-gradient(to right bottom, 
+    rgba(255,255,255, 0.8),
+    rgba(255,255,255, 0.3));
+    border-radius: 50%;
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+
+}
+.circle1{
+    top: 5%;
+    right: 15%;
+}
+.circle2{
+    bottom: 5%;
+    left: 10%;
+}
+
+.loginArea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.loginArea form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.loginArea form input{
+    border: none;
+    width: 600px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.loginArea button{
+    border: none;
+    background-color:rgba(249,176,176,1) ;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    transition: ease-in-out 0.5s;
+    color: #FFF;
+    
+}
+.loginArea button:hover{
+    background-color:rgb(245, 137, 137);
+}
+

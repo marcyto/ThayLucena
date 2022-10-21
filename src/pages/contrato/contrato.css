@@ -1,0 +1,197 @@
+::-webkit-scrollbar {
+    display: none;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-box{
+    position: relative;
+    width: 80%;
+    padding: 40px;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+    max-height: 100%;
+    overflow: auto;
+    background: linear-gradient(to left top, rgba(255,255,255, 0.8), rgba(255,255,255,0.5));
+    border-radius: 1rem;
+    margin: 2rem 0rem;
+    padding: 2rem;
+    box-shadow: 6px, 6px, 20px, rgba(122,122,122,0.212);
+}
+
+.form-box h1{
+    margin: 0 0 30px;
+    padding: 0;
+    text-align: center;    
+    text-transform: uppercase;
+}
+.form-box .user-box{
+    position: relative;
+    min-width: 280px;
+}
+.form-box .user-box input{
+    width: 100%;
+    padding: 10px 0;
+    color: black;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+
+}
+.form-box .user-box label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: black;
+    pointer-events: none;
+    transition: .5s;
+ 
+}
+.form-box .user-box input:focus ~ label,
+.form-box .user-box input:valid ~ label {
+    
+    top: -20px;
+    left: 0;
+    color: rgb(245, 137, 137);
+    font-size: 12px;
+}
+.img-form{
+    position: absolute;
+}
+.form-contrato{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.pacote{
+    margin-bottom: 20px;
+    min-width: 290px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.pacote input{
+    margin: 10px;
+    vertical-align:auto;
+}
+.form-contrato button{
+    width: 100%;
+    border: none;
+    padding: 18px 30px;
+    background-color: #3f3f3f;
+    font-size: 30px;
+    border-radius: 10px;
+    color: #fff;
+    min-width: 200px;
+    position: relative;
+    cursor: pointer;
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.3s;
+    font-weight: 600;
+}
+.form-contrato button::before{
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: -50px;
+    width: 70%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, #ffffff75, transparent);
+    transition: all 1s;
+    z-index: -1;
+    transform: translateX(-1000px) skew(-20deg);
+}
+.form-contrato button:hover::before{
+    transform: translateX(600px) skew(-20deg);
+}
+.form-contrato button:hover{
+    background: rgb(245, 137, 137);
+}
+
+@media screen and (max-width: 768px){
+    main .form-box{
+        overflow: auto;
+        
+    }
+    main .form{
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        border-radius: 0;  
+    }
+       
+    .circle1, .circle2{
+        display: none;
+    }
+    .form-contrato{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .form-contrato input{
+        max-width: 100%;
+    }
+    .pacote{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    ::-webkit-scrollbar {
+        display: none;
+    }
+}
+@media screen and (max-width: 414px){
+    main .form-box{
+        overflow: auto;
+    }
+    main .form{
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        border-radius: 0;  
+    }
+       
+    .circle1, .circle2{
+        display: none;
+    }
+    .form-contrato{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .form-contrato input{
+        max-width: 100%;
+    }
+    .pacote{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    ::-webkit-scrollbar {
+        display: none;
+    }
+}
+

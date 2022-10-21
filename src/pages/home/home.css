@@ -1,0 +1,161 @@
+#infoCards{
+    display: flex;
+    flex-direction: column;
+    text-align:justify;
+    flex-wrap: wrap;
+}
+section{
+    height: 100vh;
+    width: 100vw;
+    
+}
+.sections{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('../../assets/Back2.jpg');
+}
+.bloco{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+    width: 50%;
+    font-family: monospace;
+    text-align: center;
+}
+.bloco a{
+    width: 100%;
+    height: 100vh;
+}
+.bloco .typical{
+    color:rgb(248, 120, 120);
+    
+}
+.bloco p{
+    margin-top: 2rem;
+    font-size: 15px;
+    text-align: justify;
+}
+.img img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+    
+}
+.slider{
+    background-color: #FFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 92vh;
+    gap: 10rem;
+}
+.slider h1{
+    color: darkgray;
+    opacity: 0.5;
+}
+.img{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+.imgArea{
+    width: 800px;
+    height: 700px;
+    padding: 20px;
+    border-radius: 1rem;
+    background: transparent;
+}
+
+motion{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.info-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    
+}
+
+.cardArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 60vh;
+    width: 100vw;
+    background: url('../../assets/back3.png');
+}
+.cards{
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10rem;
+}
+.cardArea img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.cardArea h1{
+    text-transform: uppercase;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+}
+
+@media screen and (max-width:1180px){
+    .sections{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        flex-direction: column;
+    }
+    .bloco{
+        width: 100%;
+        height: 50%;
+    }
+    .cardArea{
+        height: 80vh;
+    }
+}
+@media screen and (max-width:414px){
+    .info-text h1{
+        font-size: 1.5rem;
+    }
+    .imgArea{
+        margin-top: 1rem;
+        max-width: 60%;
+    }
+    .cardArea{
+        height: 80vh;
+    }
+    .cards{
+        width: 70%;
+    }
+    .cardArea h1{
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width:375px){
+    .sections{
+        height: 140vh;
+    }
+}
