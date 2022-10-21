@@ -169,9 +169,11 @@
 
     .cursoCards{
         flex-direction: column;
+        width: 100%;
     }
     .cardCurso{
-        width: 90%;
+        width: 100%;
+        
     }
 }
 

@@ -148,7 +148,7 @@
     flex-direction: column;
 }
 .servicos{
-    width: 100vw;
+    width: 100%;
     height: 80vh;
     display: flex;
     flex-direction: row;
@@ -156,7 +156,7 @@
     justify-content: center;
 }
 .servicos_section{
-    width: 50%;
+    width: 60%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -175,11 +175,11 @@
     color: #926b58; 
 }
 .servicos_section_txt h3{
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-family: 'Dancing Script', cursive;
 }
 .servicos_section_txt p{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     
 }
 .imageSlider_noivas{
@@ -266,6 +266,28 @@
         width: 100%;
     }
 }
+@media screen and (max-width:768px){
+    .servicos{
+        height: 200vh;
+    }
+    .noivas_section_2{
+        height: 150vh;
+        text-align: center;
+    }
+    .noivas_section_3{
+        height: 90vh;
+    }
+    .imageSlider_noivas{
+        height: 80vh;
+       
+    }
+    .txt_noiva2{
+        text-align: center;
+    }
+
+
+
+}
 
 @media screen and (max-width: 414px){
     .logoStudio_area{
@@ -342,7 +364,7 @@
     .servicos{
         width: 100%;
         margin-top: 20rem;
-        height: 200vh;
+        height: 210vh;
         text-align: center;
     }
     .servicos_section{
@@ -358,6 +380,110 @@
     .imageSlider_noivas{
         height: 90vh;
         gap: 2rem;
+    }
+    
+    
+}
+@media screen and (max-width: 360px){
+    .logoStudio_area{
+        height: 40vh;
+        width: 100%;
+    }
+    .noivas_section_1{
+        width: 80%;
+        height: 140vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .img_noiva{
+        width: 80%;
+    }
+    .img_noiva img{
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+    }
+    .noivas_section_1 h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .noivas_section_1 h3{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .noivas_section_1 p{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .noivas_section_2{
+        width: 80%;
+        height: 240vh;
+    }
+    .noivas_section_3{
+        width: 80%;
+        height: 120vh;
+    }
+    .noivas_section_2 h1{
+        font-size: 2.1rem;
+        text-align: center;
+    }
+    .noivas_section_2 h3{
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    .noivas_section_2 p{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .noivas_section_3 h1{
+        font-size: 2.1rem;
+        text-align: center;
+    }
+    .noivas_section_3 h3{
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    .noivas_section_3 p{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .links_socialMedia_area{
+        width: 100%;
+        text-align: center;
+    }
+    .txt_noiva2 ul{
+        width: 100%;
+        gap: 1rem;
+    }
+    .servicos{
+        width: 100%;
+        margin-top: 20rem;
+        height: 200vh;
+        text-align: center;
+    }
+    .servicos_section{
+        width: 100%;
+    }
+    .servicos_section_txt{
+        width: 80%;
+        margin-left: 0rem;
+    }
+    .servicos_section_txt h3{
+        font-size: 2rem;
+    }
+    .servicos_section_txt p{
+        font-size: 1.2rem;
+    }
+    .img_perfil{
+        width: 100%;
+    }
+    .imageSlider_noivas{
+        height: 120vh;
+        gap: 2rem;
+    }
+    .imageSlider_noivas img{
+        width: 100%;
     }
     
     

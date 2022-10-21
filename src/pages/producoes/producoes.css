@@ -70,17 +70,19 @@
     }
 
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 360px){
     .producoes_area{
-        height: 155vh;
+        height: 160vh;
+        overflow: hidden;
     }
     .imageSlider_producoes{
+        width: 80%;
         flex-direction: column;
         gap: 0;
     }
     .imageSlider_producoes_area{
-        width: 500px;
-        height: 300px;
+        height: 100vh;
+        width: 250%;
     }
 
 }
