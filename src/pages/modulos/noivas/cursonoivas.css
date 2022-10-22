@@ -98,7 +98,7 @@
 }
 @media screen and (max-width:600px){
     .cursoNoivasArea{
-        height: 280vh;
+        height: 300vh;
     }
     .iconsArea{
         display: flex;
@@ -108,9 +108,9 @@
         align-items: flex-start;
     }
 }
-@media screen and (max-width:360px){
+@media screen and (max-width:430px){
     .cursoNoivasArea{
-        height: 290vh;
+        height: 310vh;
     }
     .img_area{
         gap: 0rem;
