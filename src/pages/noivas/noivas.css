@@ -469,7 +469,7 @@
     }
     .noivas_section_1{
         width: 80%;
-        height: 120vh;
+        height: 130vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -484,7 +484,7 @@
     }
     .noivas_section_2{
         width: 80%;
-        height: 235vh;
+        height: 245vh;
     }
     .noivas_section_3{
         width: 80%;
@@ -502,7 +502,7 @@
     .servicos{
         width: 100%;
         margin-top: 20rem;
-        height: 200vh;
+        height: 210vh;
         text-align: center;
     }
     .servicos_section{
