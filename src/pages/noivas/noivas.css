@@ -484,11 +484,11 @@
     }
     .noivas_section_2{
         width: 80%;
-        height: 245vh;
+        height: 255vh;
     }
     .noivas_section_3{
         width: 80%;
-        height: 100vh;
+        height: 110vh;
     }
     
     .links_socialMedia_area{
@@ -522,7 +522,7 @@
         width: 100%;
     }
     .imageSlider_noivas{
-        height: 100vh;
+        height: 110vh;
         gap: 2rem;
         width: 100%;
     }
