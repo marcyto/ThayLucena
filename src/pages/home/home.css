@@ -27,6 +27,7 @@ section{
     width: 50%;
     font-family: monospace;
     text-align: center;
+    overflow: hidden;
 }
 .bloco a{
     width: 100%;

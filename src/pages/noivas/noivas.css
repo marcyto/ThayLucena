@@ -4,6 +4,7 @@
 }
 .noivas_area{
     width: 100vw;
+    overflow: hidden;
 }
 .logoStudio_area{
     display: flex;
@@ -309,10 +310,19 @@
         height: 40vh;
     }
     .noivas_section_1{
-        height: 170vh;
+        height: 120vh;
     }
     .noivas_section_2{
         height: 210vh;
+    }
+    .txt_noiva h1{
+        font-size: 3rem;
+    }
+    .txt_noiva h3{
+        font-size: 2rem;
+    }
+    .txt_noiva p{
+        font-size: 1.5rem;
     }
 }
 
@@ -401,6 +411,12 @@
         width: 80%;
         margin-left: 0rem;
     }
+    .servicos_section_txt h3{
+        font-size: 2rem;
+    }
+    .servicos_section_txt p{
+        font-size: 1.3rem;
+    }
     .img_perfil{
         width: 100%;
     }
@@ -418,11 +434,17 @@
     .servicos{
         height: 230vh;
     }
+    .servicos_section_txt h3{
+        font-size: 2rem;
+    }
+    .servicos_section_txt p{
+        font-size: 1.5rem;
+    }
     
 }
-@media screen and (max-width: 360px){
+@media screen and (max-width: 365px){
     .logoStudio_area{
-        height: 40vh;
+        height: 50vh;
         width: 100%;
     }
     .noivas_section_1{
@@ -440,18 +462,6 @@
         max-height: 100%;
         object-fit: cover;
     }
-    .noivas_section_1 h1{
-        font-size: 3rem;
-        text-align: center;
-    }
-    .noivas_section_1 h3{
-        font-size: 2rem;
-        text-align: center;
-    }
-    .noivas_section_1 p{
-        font-size: 1.5rem;
-        text-align: center;
-    }
     .noivas_section_2{
         width: 80%;
         height: 225vh;
@@ -460,30 +470,7 @@
         width: 80%;
         height: 100vh;
     }
-    .noivas_section_2 h1{
-        font-size: 2.1rem;
-        text-align: center;
-    }
-    .noivas_section_2 h3{
-        font-size: 1.7rem;
-        text-align: center;
-    }
-    .noivas_section_2 p{
-        font-size: 1.3rem;
-        text-align: center;
-    }
-    .noivas_section_3 h1{
-        font-size: 2.1rem;
-        text-align: center;
-    }
-    .noivas_section_3 h3{
-        font-size: 1.7rem;
-        text-align: center;
-    }
-    .noivas_section_3 p{
-        font-size: 1.3rem;
-        text-align: center;
-    }
+    
     .links_socialMedia_area{
         width: 100%;
         text-align: center;
@@ -515,9 +502,9 @@
         width: 100%;
     }
     .imageSlider_noivas{
-        height: 120vh;
+        height: 100vh;
         gap: 2rem;
-        width: 140%;
+        width: 100%;
     }
     .imageSlider_noivas img{
         width: 100%;

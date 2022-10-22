@@ -61,3 +61,58 @@
     border-radius: 1rem;
     box-shadow: 2px 2px 15px rgb(183,182,182);
 }
+
+@media screen and (max-width:1402px){
+    .cursoNoivasArea{
+        height: 170vh;
+    }
+}
+@media screen and (max-width:1045px){
+    .cursoNoivasArea{
+        height: 190vh;
+    }
+}
+@media screen and (max-width:935px){
+    .cursoNoivasArea{
+        height: 240vh;
+    }
+    .img_area{
+        gap: 2rem;
+    }
+}
+@media screen and (max-width:900px){
+    .cursoNoivasArea{
+        height: 260vh;
+    }
+    .img_area{
+        gap: 2rem;
+    }
+}
+@media screen and (max-width:635px){
+    .cursoNoivasArea{
+        height: 260vh;
+    }
+    .img_area{
+        gap: 2rem;
+    }
+}
+@media screen and (max-width:600px){
+    .cursoNoivasArea{
+        height: 280vh;
+    }
+    .iconsArea{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+@media screen and (max-width:360px){
+    .cursoNoivasArea{
+        height: 290vh;
+    }
+    .img_area{
+        gap: 0rem;
+    }
+}

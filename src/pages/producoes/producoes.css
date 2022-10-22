@@ -104,7 +104,7 @@
 }
 @media screen and (max-width: 360px){
     .producoes_area{
-        height: 160vh;
+        height: 180vh;
         overflow: hidden;
     }
     .imageSlider_producoes{

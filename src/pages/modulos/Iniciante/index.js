@@ -6,6 +6,7 @@ import {BsHouseDoorFill} from 'react-icons/bs';
 import cardAvancado from '../../../assets/cards/cardAvancado.jpeg';
 import cardIniciante from '../../../assets/cards/cardIniciante.jpeg';
 import cardNoivas from '../../../assets/cards/cardNoivas.jpeg';
+import '../noivas/cursonoivas.css';
 
 export default function Iniciante(){
     return(
