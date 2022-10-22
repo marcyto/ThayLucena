@@ -444,7 +444,7 @@
 @media screen and (max-width:420px){
     .noivas_section_1
     .noivas_section_2{
-        height: 230vh;
+        height: 250vh;
     }
     .servicos{
         height: 220vh;
@@ -459,7 +459,13 @@
 }
 @media screen and (max-width:400px){
     .noivas_section_2{
-        height: 235vh;
+        height: 250vh;
+    }
+    .noivas_section_1{
+        height: 130vh;
+    }
+    .servicos{
+        height: 240vh;
     }
 }
 @media screen and (max-width: 365px){
