@@ -25,7 +25,10 @@ export default function SignIn(){
             <main>
                 <section className='glass'>
                     <div className="loginArea">
-                        <img src={logo}/>
+                        <div className="loginArea_logo">
+                            <img src={logo}/>
+                        </div>
+                        
 
                         <form onSubmit={handleSubmit}>
 

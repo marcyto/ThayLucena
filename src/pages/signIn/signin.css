@@ -41,15 +41,25 @@ main{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    width: 100%;
+}
+.loginArea_logo{
+    max-width: 80%;
+}
+.loginArea_logo img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
 }
 .loginArea form{
     display: flex;
     flex-direction: column;
     gap: 30px;
+    width: 70%;
 }
 .loginArea form input{
     border: none;
-    width: 600px;
+    width: 100%;
     height: 30px;
     border-radius: 10px;
     padding: 10px;

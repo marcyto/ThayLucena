@@ -1,11 +1,11 @@
 .producoes_area{
     width: 100vw;
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: url('../../assets/Back2.jpg');
+    background: rgb(242,212,212);
+    background: linear-gradient(90deg, rgba(242,212,212,1) 0%, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 85%, rgba(242,212,212,1) 100%);
 
 }
 .imageSlider_producoes{
@@ -72,39 +72,34 @@
 @media screen and (max-width: 600px){
     .producoes_area{
         overflow: hidden;
-        height: 110vh;
+        height: auto;
     }
     .imageSlider_producoes{
-        margin-top: 0;
+        margin-top: 8rem;
         flex-direction: column;
         gap: 1rem;
+        height: auto;
     }
     .imageSlider_producoes_area{
         width: 600px;
-        height: 400px;
+        height: auto;
     }
 
 }
 @media screen and (max-width: 414px){
-    .producoes_area{
-        height: 130vh;
-        
-    }
     .imageSlider_producoes{
-        margin-top: 0;
+        margin-top: 8rem;
         width: 80%;
         flex-direction: column;
         gap: 1rem;
     }
     .imageSlider_producoes_area{
         width: 600px;
-        height: 400px;
     }
 
 }
 @media screen and (max-width: 360px){
     .producoes_area{
-        height: 180vh;
         overflow: hidden;
     }
     .imageSlider_producoes{
@@ -113,7 +108,6 @@
         gap: 0;
     }
     .imageSlider_producoes_area{
-        height: 100vh;
         width: 250%;
     }
 

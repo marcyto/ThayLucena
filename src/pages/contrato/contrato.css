@@ -163,6 +163,7 @@
 @media screen and (max-width: 414px){
     main .form-box{
         overflow: auto;
+        width: 100%;
     }
     main .form{
         width: 100%;
@@ -179,9 +180,10 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        width: 100%;
     }
     .form-contrato input{
-        max-width: 100%;
+        max-width: 90%;
     }
     .pacote{
         display: flex;
@@ -194,4 +196,3 @@
         display: none;
     }
 }
-

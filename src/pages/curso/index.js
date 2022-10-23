@@ -22,6 +22,7 @@ export default function Curso(){
                     </div>
                     <div className="infoThay">
                         <div className="textArea">
+                            
                             <h1>Curso Vip</h1>
                             <p>Olá, eu sou Thaysa, mas pode me chamar de Thay.</p>
                             <p>Sou especialista em penteados para noivas e atendimentos sociais.</p>

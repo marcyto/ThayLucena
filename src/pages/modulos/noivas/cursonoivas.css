@@ -4,8 +4,8 @@
     justify-content: center;
     flex-direction: column;
     width: 100vw;
-    height: 120vh;
     gap: 1rem;
+    overflow: scroll;
 }
 
 .txtAreaNoivas{
@@ -16,6 +16,7 @@
     align-items: flex-start;
     justify-content: center;
     gap: 3rem;
+    margin-top: 10rem;
 }
 .txtAreaNoivas p{
     font-size: 1rem;
@@ -64,17 +65,17 @@
 
 @media screen and (max-width:1402px){
     .cursoNoivasArea{
-        height: 170vh;
+        
     }
 }
 @media screen and (max-width:1045px){
     .cursoNoivasArea{
-        height: 190vh;
+        
     }
 }
 @media screen and (max-width:935px){
     .cursoNoivasArea{
-        height: 240vh;
+        
     }
     .img_area{
         gap: 2rem;
@@ -82,7 +83,7 @@
 }
 @media screen and (max-width:900px){
     .cursoNoivasArea{
-        height: 260vh;
+        
     }
     .img_area{
         gap: 2rem;
@@ -90,7 +91,7 @@
 }
 @media screen and (max-width:635px){
     .cursoNoivasArea{
-        height: 260vh;
+        
     }
     .img_area{
         gap: 2rem;
@@ -98,7 +99,7 @@
 }
 @media screen and (max-width:600px){
     .cursoNoivasArea{
-        height: 300vh;
+        
     }
     .iconsArea{
         display: flex;
@@ -110,7 +111,7 @@
 }
 @media screen and (max-width:430px){
     .cursoNoivasArea{
-        height: 310vh;
+        
     }
     .img_area{
         gap: 0rem;
