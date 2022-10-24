@@ -7,10 +7,15 @@ import {BsHouseDoorFill} from 'react-icons/bs';
 import cardAvancado from '../../../assets/cards/cardAvancado.jpeg';
 import cardIniciante from '../../../assets/cards/cardIniciante.jpeg';
 import cardNoivas from '../../../assets/cards/cardNoivas.jpeg';
+import { useEffect } from "react";
 
 
 
 export default function CursoNoivas(){
+    useEffect(()=> {
+        window.scrollTo(0, 0)
+    }, [])
+
     return(
         <div>
             <Header/>

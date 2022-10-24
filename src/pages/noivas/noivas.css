@@ -201,9 +201,8 @@
     color: #926b58; 
 }
 .imageSlider_noivas_area{
-    max-width: 1000px;
-    max-height: 800px;
-    padding: 20px;
+    width: 800px;
+    height: 700px;
     border-radius: 1rem;
     background: transparent;
 }
@@ -411,6 +410,9 @@
     .servicos_section_txt p{
         font-size: 1.5rem;
     }
+    .imageSlider_noivas_area{
+        width: 100%;
+    }
     
 }
 @media screen and (max-width: 365px){
@@ -475,7 +477,5 @@
         gap: 2rem;
         width: 100%;
     }
-    .imageSlider_noivas img{
-        width: 100%;
-    }
+   
 }

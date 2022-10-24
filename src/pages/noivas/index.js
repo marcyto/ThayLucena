@@ -11,9 +11,15 @@ import {BsWhatsapp} from 'react-icons/bs';
 import {TiSocialPinterest} from 'react-icons/ti';
 import {GrFacebookOption} from 'react-icons/gr';
 import ImageSlider from "../../components/imageSlider";
+import { useEffect } from "react";
 
 
 export default function Noivas(){
+
+    useEffect(()=> {
+        window.scrollTo(0, 0)
+    }, [])
+
     return(
         <div className="noivasBack">
             <Header/>

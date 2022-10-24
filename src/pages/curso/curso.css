@@ -41,6 +41,7 @@
     max-width: 50rem;
     max-height: 40rem;
     
+    
 }
 .imgAreas img{
     object-fit: cover;
@@ -162,12 +163,14 @@
         justify-content: center;
         gap: 1rem;
     }
-
+    .mod{
+        height: auto;
+    }
     .cursoCards{
         flex-direction: column;
     }
     .cardCurso{
-        width: 90%;
+        width: 100%;
     }
 }
 @media screen and (max-width:375px){

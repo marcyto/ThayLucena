@@ -8,8 +8,8 @@
     flex-direction: column;
 }
 .footer .linkWhats{
-    bottom: 2%;
-    right: 2%;
+    bottom: 3%;
+    right: 3%;
     position: fixed;
 }
 .footer a{
@@ -89,6 +89,9 @@
     max-width: 100%;
     max-height: 100%;
     object-fit: cover;
+}
+.linkWhats{
+    z-index: 5;
 }
 @media screen and (max-width:1000px){
     .footerDown ul{

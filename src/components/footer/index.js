@@ -13,7 +13,7 @@ export default function Footer(){
     
     return(
         <footer className="footer">
-            <a className="linkWhats" href="https://wa.me/message/JAF2C2YLLJEWG1">Fale Comigo <BsWhatsapp color="#FFF" size={25}/></a>
+            <a className="linkWhats" href="https://wa.me/message/JAF2C2YLLJEWG1"><BsWhatsapp color="#FFF" size={25}/></a>
             <div className="footerUp">
                 <p>Edificio Ocean Tower, sala 003, Maceio-AL - (82) 99608-9000 - Thaylucenapenteados@gmail.com</p>
                 

@@ -6,8 +6,14 @@ import {BsHouseDoorFill} from 'react-icons/bs';
 import cardAvancado from '../../../assets/cards/cardAvancado.jpeg';
 import cardIniciante from '../../../assets/cards/cardIniciante.jpeg';
 import cardNoivas from '../../../assets/cards/cardNoivas.jpeg';
+import { useEffect } from "react";
 
 export default function Avancado(){
+
+    useEffect(()=> {
+        window.scrollTo(0, 0)
+    }, [])
+
     return(
         <div>
             <Header/>
@@ -29,6 +35,14 @@ export default function Avancado(){
                         <div className="iconTxt">
                             <h3>Curso 100% Pratico</h3>
                             <p></p>
+                        </div>
+                    </div>
+                    <div className="icon">
+                        <AiOutlineCheck size={40} color="rgb(245, 143, 160)"/>
+                        <div className="iconTxt">
+                            <h3>Técnicas</h3>
+                            <p>Técnicas escolhidas</p>
+                            <p>pelo proprio aluno.</p>
                         </div>
                         
                     </div>

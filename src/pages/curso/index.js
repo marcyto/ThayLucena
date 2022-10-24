@@ -10,8 +10,16 @@ import cardNoivas from '../../assets/cards/cardNoivas.jpeg';
 import cardEspecializacao from '../../assets/cards/cardEspecializacao.jpeg';
 import cardDupla from '../../assets/cards/cardDupla.jpeg';
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 export default function Curso(){
+
+    
+
+    useEffect(()=> {
+        window.scrollTo(0, 0)
+    }, [])
+
     return(
         <div >
             <Header/>
