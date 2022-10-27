@@ -1,14 +1,14 @@
 
-import noiva1 from '../assets/images/noiva1.jpeg';
-import noiva11 from '../assets/images/noiva1-1.jpeg';
-import noiva111 from '../assets/images/noiva1-1-1.jpeg';
-import noiva2 from '../assets/images/noiva2.jpeg';
-import noiva22 from '../assets/images/noiva2-2.jpeg';
-import noiva4 from '../assets/images/noiva4.jpeg';
-import noiva5 from '../assets/images/noiva5.jpeg';
-import noiva55 from '../assets/images/noiva5-5.jpeg';
-import noiva7 from '../assets/images/noiva7.jpeg';
-import noiva8 from '../assets/images/noiva8.jpeg';
+import noiva1 from '../assets/images/noiva1.webp';
+import noiva11 from '../assets/images/noiva1-1.webp';
+import noiva111 from '../assets/images/noiva1-1-1.webp';
+import noiva2 from '../assets/images/noiva2.webp';
+import noiva22 from '../assets/images/noiva2-2.webp';
+import noiva4 from '../assets/images/noiva4.webp';
+import noiva5 from '../assets/images/noiva5.webp';
+import noiva55 from '../assets/images/noiva5-5.webp';
+import noiva7 from '../assets/images/noiva7.webp';
+import noiva8 from '../assets/images/noiva8.webp';
 
 
 

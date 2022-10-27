@@ -1,9 +1,3 @@
-#infoCards{
-    display: flex;
-    flex-direction: column;
-    text-align:justify;
-    flex-wrap: wrap;
-}
 .sections{
     display: flex;
     flex-direction: row;
@@ -145,6 +139,9 @@
     }
     .imgArea{
         max-width: 80%;
+    }
+    #textInfo{
+        margin-top: -1rem;
     }
     
 }

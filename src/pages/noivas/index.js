@@ -1,11 +1,11 @@
 import Footer from "../../components/footer";
 import Header from "../../components/header";
 import './noivas.css';
-import logoStudio from '../../assets/noivas/logoStudio.png';
-import noivaConvidadas from '../../assets/noivas/noivaConvidadas.png';
-import fotoTania from '../../assets/noivas/fotoTania.png';
-import fotothay from '../../assets/noivas/fotothay.JPG';
-import servicoImage from '../../assets/noivas/servicosImage.png'
+import logoStudio from '../../assets/noivas/logoStudio.webp';
+import noivaConvidadas from '../../assets/noivas/noivaConvidadas.webp';
+import fotoTania from '../../assets/noivas/fotoTania.webp';
+import fotothay from '../../assets/noivas/fotothay.webp';
+import servicoImage from '../../assets/noivas/servicosImage.webp'
 import {AiOutlineInstagram } from 'react-icons/ai';
 import {BsWhatsapp} from 'react-icons/bs';
 import {TiSocialPinterest} from 'react-icons/ti';

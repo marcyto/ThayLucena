@@ -95,9 +95,6 @@
 .cardCurso a{
     background: rgba(229, 106, 106, 0.8);
 }
-.cardCurso .noivas{
-    background-image: url('../../assets//cards/cardNoivas.jpeg');
-}
 .linkCurso{
    background-color: rgba(229, 106, 106, 0.8);
    width: 80%;

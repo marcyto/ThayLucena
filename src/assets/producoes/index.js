@@ -1,11 +1,11 @@
 
-import producao1 from '../../assets/producoes/producao1.jpeg';
-import producao2 from '../../assets/producoes/producao2.jpeg';
-import producao3 from '../../assets/producoes/producao3.jpeg';
-import producao4 from '../../assets/producoes/producao4.jpeg';
-import producao5 from '../../assets/producoes/producao5.jpeg';
-import producao6 from '../../assets/producoes/producao6.jpeg';
-import producao7 from '../../assets/producoes/producao7.jpeg';
+import producao1 from '../../assets/producoes/producao1.webp';
+import producao2 from '../../assets/producoes/producao2.webp';
+import producao3 from '../../assets/producoes/producao3.webp';
+import producao4 from '../../assets/producoes/producao4.webp';
+import producao5 from '../../assets/producoes/producao5.webp';
+import producao6 from '../../assets/producoes/producao6.webp';
+import producao7 from '../../assets/producoes/producao7.webp';
 
 
 export const imageDataProd = [

@@ -2,13 +2,13 @@ import Footer from "../../components/footer";
 import Header from "../../components/header";
 import ImageSlider from "../../components/imageSlider";
 import './curso.css';
-import FotoThay from '../../assets/fotoThay.jpg';
-import logo from '../../assets/logo.png'
-import cardAvancado from '../../assets/cards/cardAvancado.jpeg';
-import cardIniciante from '../../assets/cards/cardIniciante.jpeg';
-import cardNoivas from '../../assets/cards/cardNoivas.jpeg';
-import cardEspecializacao from '../../assets/cards/cardEspecializacao.jpeg';
-import cardDupla from '../../assets/cards/cardDupla.jpeg';
+import FotoThay from '../../assets/fotoThay.webp';
+import logo from '../../assets/logo.webp'
+import cardAvancado from '../../assets/cards/cardAvancado.webp';
+import cardIniciante from '../../assets/cards/cardIniciante.webp';
+import cardEspecializacao from '../../assets/cards/cardEspecializacao.webp';
+import cardNoivas from '../../assets/cards/cardNoivas.webp';
+import cardDupla from '../../assets/cards/cardDupla.webp';
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 
